@@ -1,0 +1,16 @@
+package L4part3;
+
+public class Main {
+	public static void main(String[] args) {
+		Animal animal=new Animal("Tiger",20,7);
+		String animalName=animal.getName();
+		int animalSpeed=animal.getSpeed();
+		int animalAge=animal.getAge();
+		System.out.println("Animal Name = " + animalName + ", Animal Speed = " + animalSpeed + " km/h, Animal Age = " + animalAge + " years ");
+		System.out.println("-----------------------------------------------------------------------------");
+	animal.setName("Dino");
+	animal.setSpeed(10);
+	animal.setAge(8);
+	System.out.println("Animal Name = " + animal.getName() + ", Animal Speed = " + animal.getSpeed() + " km/h, Animal Age = " + animal.getAge() + " years ");
+	}
+}
